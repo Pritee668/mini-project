@@ -1,0 +1,155 @@
+body{
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    height: 100px;
+}
+*{
+    font-size: 25px;
+}
+.set-bar{
+    display: flex;
+    margin-top: 15px;
+    margin: 15px;
+    border: 1px solid transparent;
+}
+.text{
+    margin-left: 30px;
+}
+.setting{
+    background-image: url("images/setting.png");
+    background-size: cover;
+    height: 35px;
+    width: 35px
+}
+.safe{
+    background-image: url("images/lock.png");
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+}
+.history{
+    background-image: url("images/clock.png");
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+}
+.privacy{
+    background-image: url("images/privacy.png");
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+}
+.feedback{
+    background-image: url("images/feedback.png");
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+}
+.themes{
+    background-image: url("images/themes.png");
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+}
+.social{
+display: flex;
+margin-left: 15px;
+margin-top: 150px;
+}
+
+.facebook{
+background-image: url("images/facebook.png");
+background-size: cover;
+height: 45px;
+width: 45px;
+border-radius: 50%;
+margin-right: 7px;
+}
+.tiktok{
+    background-image: url("images/tiktok.png");
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+.instagram{
+background-image: url("images/instagram.png");
+background-size: cover;
+height: 45px;
+width: 45px;
+border-radius: 50%;
+margin-right: 7px;
+
+}
+.twitter{
+background-image: url("images/twitter.png");
+background-size: cover;
+height: 45px;
+width: 45px;
+border-radius: 50%;
+margin-right: 7px;
+
+}
+.text{
+    display: flex;
+}
+.all{
+    background-color: hsla(0, 5%, 61%, 0.891);
+    margin-top: -70px;
+    height: 106vh;
+    width: 25vw;
+    display: none;
+    box-shadow: 4px 4px 8px 6px rgb(49, 49, 49);
+    transition-duration: 2s;
+    border: 3px solid hsla(120, 28%, 15%, 0.2);
+}
+ input:checked ~ div {
+    display: block;
+    transition: 100s;
+
+}
+input:checked+label{
+    display: none;
+}
+
+#check{
+    visibility: hidden;
+}
+.img,.text,h5,i{
+    cursor: pointer;
+    opacity: 0.9;
+}
+i:hover{
+    opacity: 1;
+    font-size: 30px;
+}
+h5:horizontal{
+    opacity: 1;
+}
+.text:hover{
+opacity: 1;
+}
+.img:hover{
+opacity: 1;
+}
+.set-bar:hover{
+    border: 1px solid white;
+    border-radius: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
