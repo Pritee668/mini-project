@@ -46,14 +46,35 @@
     "**/build",
     "**/build/**",
     "**/.*",
-    "**/.*/**",
-    "**/.vscode",
-    "**/.vscode/**"
+    "**/.*/**"
   ],
   "C_Cpp_Runner.useAddressSanitizer": false,
   "C_Cpp_Runner.useUndefinedSanitizer": false,
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
-  "C_Cpp_Runner.msvcSecureNoWarnings": false
+  "C_Cpp_Runner.msvcSecureNoWarnings": false,
+  "git.countBadge": "tracked",
+  "git.enabled": false,
+  "git.decorations.enabled": false,
+  "git.openDiffOnClick": false,
+  "gitlens.plusFeatures.enabled": false,
+  "gitlens.virtualRepositories.enabled": false,
+  "gitlens.hovers.autolinks.enabled": false,
+  "gitlens.hovers.autolinks.enhanced": false,
+  "gitlens.hovers.currentLine.enabled": false,
+  "gitlens.hovers.annotations.enabled": false,
+  "gitlens.hovers.annotations.details": false,
+  "gitlens.hovers.annotations.changes": false,
+  "gitlens.views.commits.pullRequests.showForCommits": false,
+  "gitlens.views.commits.pullRequests.enabled": false,
+  "zenMode.hideActivityBar": false,
+  "explorer.excludeGitIgnore": true,
+  "search.useGlobalIgnoreFiles": true,
+  "cSpell.useGitignore": false,
+  "editor.codeActionWidget.includeNearbyQuickfixes": true,
+  "files.exclude": {
+    "**/Thumbs.db": false
+  },
+  "files.readonlyFromPermissions": true
 }
